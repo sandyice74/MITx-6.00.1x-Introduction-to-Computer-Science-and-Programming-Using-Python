@@ -1,0 +1,25 @@
+__author__ = "Di"
+
+L6 PROBLEM 1  (26/26 points)
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+For each of the expressions below, specify its type and value.
+If it generates an error, select type 'NoneType' and put the word 'error' in the box for the value.
+
+Assume we've made the following assignment:
+
+x = (1, 2, (3, 'John', 4), 'Hi')
+
+1. x[0]     int      1
+2. x[2]     tuple    (3, 'John', 4)
+3  x[-1]    string   'Hi'
+4  x[2][2]  int      4
+5  x[2][-1] int      4
+6  x[-1][-1]string   'i'
+7  x[-1][2] NoneType error
+8  x[0:1]   tuple    (1,)
+9  x[0:-1]  tuple    (1, 2, (3, 'John', 4))
+10 len(x)   int      4
+11 2 in x   boolean  True
+12 3 in x   boolean  False
+13 x[0] = 8 NoneType error
